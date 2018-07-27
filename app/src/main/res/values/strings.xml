@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ContactManagerV4</string>
+    <string name="title_activity_maps">Contact Address</string>
+    <string name="title_activity_main">ContactManagerV4</string>
+    <string name="msg_no_contacts">No contacts detected.</string>
+    <string name="lbl_new_contact_title">New Contact</string>
+    <string name="lbl_edit_contact_title">View / Edit Contact</string>
+    <string name="lbl_enter_first">First Name</string>
+    <string name="lbl_enter_last">Last Name</string>
+    <string name="lbl_enter_init">Middle Initial</string>
+    <string name="lbl_enter_phone">Phone Number</string>
+    <string name="lbl_enter_bdate">Birth Date</string>
+    <string name="lbl_enter_address1">Address</string>
+    <string name="lbl_enter_address2">Address 2</string>
+    <string name="lbl_enter_city">City</string>
+    <string name="lbl_enter_state">State</string>
+    <string name="lbl_enter_zip">Zip Code</string>
+    <string name="hint_enter_first">First Name here</string>
+    <string name="hint_enter_last">Last Name here</string>
+    <string name="hint_enter_init">Middle Initial here (optional)</string>
+    <string name="hint_enter_phone">Phone # here</string>
+    <string name="hint_enter_bdate">Birth date here (optional)</string>
+    <string name="hint_enter_address1">Street address here (optional)</string>
+    <string name="hint_enter_address2">Other address info here (optional)</string>
+    <string name="hint_enter_city">City here (optional)</string>
+    <string name="hint_enter_state">State here (optional)</string>
+    <string name="hint_enter_zip">Zip code here (optional)</string>
+    <string name="hint_required">Required field.</string>
+    <string name="hint_optional">Optional field.</string>
+</resources>

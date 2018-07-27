@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_margin"
+    android:paddingRight="@dimen/activity_margin"
+    android:paddingTop="@dimen/activity_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dialog_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_10"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/lbl_new_contact_title"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/lbl_new_contact_title"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/contactFirstNamePrompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/lbl_enter_first"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/input_new_contact"
+                android:textStyle="normal" />
+            <EditText
+                android:id="@+id/contactFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_10"
+                android:background="@android:color/transparent"
+                android:gravity="top"
+                android:hint="@string/hint_enter_first"
+                android:inputType="textPersonName|textCapWords"
+                android:lines="1"
+                android:maxLength="26"
+                android:textSize="@dimen/input_new_contact" />
+
+            <TextView
+                android:id="@+id/contactLastNamePrompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/lbl_enter_last"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/input_new_contact"
+                android:textStyle="normal" />
+            <EditText
+                android:id="@+id/contactLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_10"
+                android:background="@android:color/transparent"
+                android:gravity="top"
+                android:hint="@string/hint_enter_last"
+                android:inputType="textPersonName|textCapWords"
+                android:lines="1"
+                android:maxLength="26"
+                android:textSize="@dimen/input_new_contact" />
+
+            <TextView
+                android:id="@+id/contactMidInitPrompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/lbl_enter_init"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/input_new_contact"
+                android:textStyle="normal" />
+            <EditText
+                android:id="@+id/contactMidInit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_10"
+                android:background="@android:color/transparent"
+                android:gravity="top"
+                android:hint="@string/hint_enter_init"
+                android:inputType="text|textCapCharacters"
+                android:lines="1"
+                android:maxLength="1"
+                android:textSize="@dimen/input_new_contact" />
+
+            <TextView
+                android:id="@+id/contactPhonePrompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/lbl_enter_phone"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/input_new_contact"
+                android:textStyle="normal" />
+            <EditText
+                android:id="@+id/contactPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_10"
+                android:background="@android:color/transparent"
+                android:gravity="top"
+                android:hint="@string/hint_enter_phone"
+                android:inputType="phone"
+                android:lines="1"
+                android:maxLength="15"
+                android:textSize="@dimen/input_new_contact" />
+
+            <TextView
+                android:id="@+id/contactBDatePrompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/lbl_enter_bdate"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/input_new_contact"
+                android:textStyle="normal" />
+            <EditText
+                android:id="@+id/contactBDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_10"
+                android:background="@android:color/transparent"
+                android:gravity="top"
+                android:hint="@string/hint_enter_bdate"
+                android:inputType="date"
+                android:lines="1"
+                android:maxLength="26"
+                android:textSize="@dimen/input_new_contact" />
+
+            <TextView
+                android:id="@+id/contactAddress1Prompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/lbl_enter_address1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/input_new_contact"
+                android:textStyle="normal" />
+            <EditText
+                android:id="@+id/contactAddress1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_10"
+                android:background="@android:color/transparent"
+                android:gravity="top"
+                android:hint="@string/hint_enter_address1"
+                android:inputType="textPostalAddress"
+                android:lines="1"
+                android:maxLength="40"
+                android:textSize="@dimen/input_new_contact" />
+
+            <TextView
+                android:id="@+id/contactAddress2Prompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/lbl_enter_address2"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/input_new_contact"
+                android:textStyle="normal" />
+            <EditText
+                android:id="@+id/contactAddress2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_10"
+                android:background="@android:color/transparent"
+                android:gravity="top"
+                android:hint="@string/hint_enter_address2"
+                android:inputType="textPostalAddress"
+                android:lines="1"
+                android:maxLength="40"
+                android:textSize="@dimen/input_new_contact" />
+
+            <TextView
+                android:id="@+id/contactCityPrompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/lbl_enter_city"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/input_new_contact"
+                android:textStyle="normal" />
+            <EditText
+                android:id="@+id/contactCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_10"
+                android:background="@android:color/transparent"
+                android:gravity="top"
+                android:hint="@string/hint_enter_city"
+                android:inputType="textCapWords"
+                android:lines="1"
+                android:maxLength="40"
+                android:textSize="@dimen/input_new_contact" />
+
+            <TextView
+                android:id="@+id/contactStatePrompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/lbl_enter_state"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/input_new_contact"
+                android:textStyle="normal" />
+            <EditText
+                android:id="@+id/contactState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_10"
+                android:background="@android:color/transparent"
+                android:gravity="top"
+                android:hint="@string/hint_enter_state"
+                android:inputType="textCapWords"
+                android:lines="1"
+                android:maxLength="20"
+                android:textSize="@dimen/input_new_contact" />
+
+            <TextView
+                android:id="@+id/contactZipPrompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/lbl_enter_zip"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/input_new_contact"
+                android:textStyle="normal" />
+            <EditText
+                android:id="@+id/contactZip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_10"
+                android:background="@android:color/transparent"
+                android:gravity="top"
+                android:hint="@string/hint_enter_zip"
+                android:inputType="number"
+                android:lines="1"
+                android:maxLength="10"
+                android:textSize="@dimen/input_new_contact" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
